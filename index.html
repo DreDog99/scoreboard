@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="GRIZZLIES">
+                <h3>GRIZZLIES</h3>
+                <h2 id="homescore-el">0</h2>
+                <button class="btn" onclick="addOneH()">+1</button>
+                <button class="btn" onclick="addTwoH()">+2</button>
+                <button class="btn" onclick="addThreeH()">+3</button>
+                <img id="Glogo" src="Memphis-Grizzlies-Logo-2018-present.jpg">
+            </div>
+            <div id="ESPN">
+                <h3> ESPN </h3>
+            </div>
+            <div class="LAKERS">
+                <h3>LAKERS</h3>
+                <h2 id="guestscore-el">0</h2>
+                <button class="btn" onclick="addOneG()">+1</button>
+                <button class="btn" onclick="addTwoG()">+2</button>
+                <button class="btn" onclick="addThreeG()">+3</button>
+                <img id="Llogo" src="Los_Angeles_Lakers_logo_logotype_emblem.png">
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

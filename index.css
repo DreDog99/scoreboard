@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    background-color: #415a77;
+    font-family: 'Archivo Black', sans-serif;
+    max-width: 400px;
+    margin: auto; 
+    text-align: center;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.btn {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 15px;
+    background-color: #415a77;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 4px;
+    padding: 9px 9px 9px 9px;
+    
+    
+} 
+
+
+#homescore-el {
+    font-family: 'Pixelify Sans', sans-serif;
+    color:#c1121f;
+    font-size: 50px;
+    border: 6px solid black;
+    text-align:center;
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    background-color:black;
+    margin: 10px; 
+}
+
+#guestscore-el {
+    font-family: 'Pixelify Sans', sans-serif;
+    color:#c1121f;
+    font-size: 50px;
+    border: 6px solid black;
+    text-align:center;
+    padding: 20px 70px 20px 70px;
+    border-radius: 5px;
+    background-color:black;
+    margin: 10px; 
+}
+
+#ESPN {
+    color: #c1121f;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 200px 20px 0px 20px
+}
+
+#Glogo {
+    width: 200px;
+    margin-top: 20px;
+}
+
+#Llogo {
+    width: 200px;
+    margin-top: 20px;
+}
